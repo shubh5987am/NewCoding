@@ -60,7 +60,7 @@ class Solution
                 ans=Math.max(ans,count);
                 i++;
                 }
-        else if(arr[i]>dep[j])
+        else if(arr[i]>=dep[j])
         {
             count--;
             j++;
